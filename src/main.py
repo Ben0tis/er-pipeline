@@ -41,27 +41,27 @@ def generate_visualizations():
         # Save visualizations
         print("Saving Total Visits by Year...")
         ax = visualize.visualize_trends(df)
-        ax.figure.savefig("visualizations/total_visits_by_year.png")
+        ax.figure.savefig("data/visualizations/total_visits_by_year.png")
 
         print("Saving Average Stay by Region...")
         ax = visualize.visualize_regions(df)
-        ax.figure.savefig("visualizations/average_stay_by_region.png")
+        ax.figure.savefig("data/visualizations/average_stay_by_region.png")
 
         print("Saving Average Ratios...")
         ax = visualize.visualize_ratios(df)
-        ax.figure.savefig("visualizations/average_ratios.png")
+        ax.figure.savefig("data/visualizations/average_ratios.png")
 
         print("Saving Worst Locations by Region...")
         ax = visualize.visualize_worst_locations(df)
-        ax.figure.savefig("visualizations/worst_locations.png")
+        ax.figure.savefig("data/visualizations/worst_locations.png")
 
         print("Saving Care Delays...")
         ax = visualize.visualize_care_delays(df)
-        ax.figure.savefig("visualizations/care_delays.png")
+        ax.figure.savefig("data/visualizations/care_delays.png")
 
         print("Saving Delays Heatmap...")
         ax = visualize.visualize_heatmap(df)
-        ax.figure.savefig("visualizations/delays_heatmap.png")
+        ax.figure.savefig("data/visualizations/delays_heatmap.png")
 
     except Exception as e:
         print(f"An error occurred during visualization: {e}")
