@@ -3,7 +3,7 @@
 ### **By:** Benjamin Desmeules Otis  
 **GitHub and EdX:** Ben0tis  
 **From:** Quebec, Canada  
-**Video Demo:** Coming soon!
+**Video Demo:** https://youtu.be/IBX08Tt7Nbs
 ---
 
 ### **Project Overview**
