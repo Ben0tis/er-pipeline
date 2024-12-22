@@ -134,10 +134,9 @@ The dataset provides insights into emergency room operations across Quebec. Key 
 ---
 
 ### **Future Enhancements**
-- Parameterize scripts to focus on specific years or regions.
+- Add way to focus on specific years or regions.
 - Add interactivity through a Jupyter Notebook or a lightweight web interface.
 - Include additional performance metrics, such as patient satisfaction or wait times.
-- Incorporate machine learning models to predict ER demand.
 
 ---
 
